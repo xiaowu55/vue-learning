@@ -14,13 +14,12 @@ onMounted(() => {
 })
 </script>
 
-
-
-
 <template >
     <div>
         <button @click="increment">Count is :{{ count }}</button>
     </div>
+
+    <div v-show="ok">This is v-show</div>
 
     <template v-if="ok">
         <h1>Title</h1>
