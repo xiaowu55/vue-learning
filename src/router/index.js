@@ -4,6 +4,7 @@ import {
 } from 'vue-router'
 import Home from '../pages/Home.vue'
 import About from '../pages/About.vue'
+import Login from '../components/Login.vue'
 
 const routes = [{
     path: '/',
